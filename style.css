@@ -1,0 +1,23 @@
+#n-id-input {
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+#n-id-input:invalid {
+    border-color: red;
+}
+#n-id-input::placeholder {
+    color: lightgray;
+}
+
+#n-id-submit{
+    padding: 5px 10px;
+    border: 2px solid gray;
+    border-radius: 3px;
+    background-color: gray;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+}
